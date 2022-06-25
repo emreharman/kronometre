@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(44, 159, 179);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.saatKapsayici{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.saatKapsayici p{
+    font-size: 50px;
+    color: white;
+}
+.butonKapsayici{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.butonKapsayici button{
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(44, 159, 179);
+    border: 1px solid white;
+    cursor: pointer;
+}
